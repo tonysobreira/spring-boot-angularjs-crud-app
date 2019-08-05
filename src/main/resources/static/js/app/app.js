@@ -1,8 +1,8 @@
 var app = angular.module('crudApp',['ui.router','ngStorage']);
 
 app.constant('urls', {
-    BASE: 'http://localhost:8080/',
-    USER_SERVICE_API : 'http://localhost:8080/api/user/'
+    BASE: 'https://spring-boot-angularjs-no-db.herokuapp.com/',
+    USER_SERVICE_API : 'https://spring-boot-angularjs-no-db.herokuapp.com/api/user/'
 });
 
 app.config(['$stateProvider', '$urlRouterProvider',
